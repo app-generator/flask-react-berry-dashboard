@@ -19,7 +19,7 @@ Open-source full-stack seed project coded in React and Flask on top of a modern 
 - [Flask React Berry](https://flask-react-datta-able.appseed-srv1.com/) - LIVE Demo
 - [Flask React Berry](https://docs.appseed.us/products/react/flask-datta-able) - product documentation
 - Download Backend: [Flask API Server 📥](https://github.com/app-generator/api-server-flask/archive/refs/heads/main.zip)
-- Donwnload Frontend: [React Datta Able 📥](https://github.com/app-generator/react-berry-dashboard/archive/refs/heads/main.zip)  
+- Donwnload Frontend: [React Berry Dashboard 📥](https://github.com/app-generator/react-berry-dashboard/archive/refs/heads/main.zip)  
 
 <br >
 
