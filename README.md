@@ -1,6 +1,6 @@
 # [Flask React Berry Dashboard](https://appseed.us/product/flask-react-berry-dashboard)
 
-**Berry** is a creative **React Dashboard** built using the Material-UI. It is meant to be the best User Experience with highly customizable feature-riched pages. It is a complete game-changer **React Dashboard** with an easy and intuitive responsive design as on retina screens or laptops. The product comes with a simple JWT authentication flow: login/register/logout. 
+**Berry** is a creative **[React Dashboard](https://appseed.us/product/flask-react-berry-dashboard)** built using the Material-UI. It is meant to be the best User Experience with highly customizable feature-riched pages. It is a complete game-changer **React Dashboard** with an easy and intuitive responsive design as on retina screens or laptops. The product comes with a simple JWT authentication flow: login/register/logout. 
 
 > Features
 
