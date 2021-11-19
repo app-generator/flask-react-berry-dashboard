@@ -57,7 +57,7 @@ After we register a new user and Sign IN, all the private pages become accessibl
 
 <br />
 
-![Flask React Berry Dashboard - Open-source full-stack product with Flask API Backend.](https://user-images.githubusercontent.com/51070104/142403839-1488457d-0ea6-4b18-8f25-d19a9acf101e.gif)
+![Flask React Berry Dashboard - Open-source full-stack product with Flask API Backend.](https://user-images.githubusercontent.com/51070104/142580177-3f15f584-6d85-4e5b-adbb-227096056587.gif)
 
 <br >
 
@@ -189,19 +189,19 @@ authorization: JWT_TOKEN (returned by Login request)
 
 > **Flask React Berry Dashboard** - Login 
 
-![Flask React Berry Dashboard - Login.](https://user-images.githubusercontent.com/51070104/142403942-3a2228e6-c769-4259-8e78-c000056db7c4.png)
+![Flask React Berry Dashboard - Login.](https://user-images.githubusercontent.com/51070104/142580244-3dd97d0b-f6ca-4947-a941-6fc640cea84e.png)
 
 <br />
 
-> **Flask React Berry Dashboard** - User Profile
+> **Flask React Berry Dashboard** - Icons
 
-![Flask React Berry Dashboard - User Profile](https://user-images.githubusercontent.com/51070104/142403992-81e86dc5-4d73-4cca-8a1b-300a0f5475a0.png)
+![Flask React Berry Dashboard - Icons.](https://user-images.githubusercontent.com/51070104/142580373-64a492cf-637b-4532-81a8-8e49eca0c91e.png)
 
 <br />
 
-> **Flask React Berry Dashboard** - Billing Page
+> **Flask React Berry Dashboard** - Grid
 
-![Flask React Berry Dashboard - Billing Page.](https://user-images.githubusercontent.com/51070104/142404073-68b96008-fb06-4ff5-98cf-c8e3eca636c9.png)
+![Flask React Berry Dashboard - Grid.](https://user-images.githubusercontent.com/51070104/142580452-02ceeef8-5ee3-4072-a279-ae06ea64623a.png)
 
 <br />
 
