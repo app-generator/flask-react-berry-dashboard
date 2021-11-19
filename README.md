@@ -1,127 +1,133 @@
-# [Flask React Berry](https://appseed.us/product/flask-react-berry-dashboard)
+# [Flask React Berry Dashboard](https://appseed.us/product/flask-react-berry-dashboard)
 
-Open-source full-stack seed project coded in React and Flask on top of a modern design from CodedThemes: **Berry Dashboard**. The **[Flask React](https://appseed.us/product/flask-react-berry-dashboard)** codebase is already configured with an SQLite database, API (via **Flask-RextX**), and JWT token-based authentication flow. **Berry Dashboard** is an open-source **React Dashboard** that provides a colorful and modern design styled with M-UI, the most popular material components library for React.
+**Berry** is a creative **React Dashboard** built using the Material-UI. It is meant to be the best User Experience with highly customizable feature-riched pages. It is a complete game-changer **React Dashboard** with an easy and intuitive responsive design as on retina screens or laptops. The product comes with a simple JWT authentication flow: login/register/logout. 
 
 > Features
 
-- Modern aesthetics UI design - Designed by *CodedThemes*
+- Innovative **Material UI** Design - Creafted by [CodedThemes](https://bit.ly/37fF9RT)
 - React, Redux, Redux-persist
 - Authentication: JWT Login/Register/Logout
-- **Full-stack Ready** using a **Flask API Server** (open-source project) - Server Features:
-  - Flask / `Flask-restX` / SQLite3 - a simple, easy to use backend
-  - Authentication with JWT (login, logout, register) via `Flask-jwt_extended`
+- **Full-stack Ready** using a **Flask API Server** (open-source project) - Server Features
+  - Flask / Flask-RestX / SQLite3 - a simple, easy to use backend
+  - Authentication with JWT (login, logout, register)
   - Docker, Unitary tests
 
 > Links
 
-- [Flask React Berry](https://appseed.us/product/flask-react-berry-dashboard) - product page
-- [Flask React Berry](https://flask-react-berry-dashboard.appseed-srv1.com/) - LIVE Demo
-- [Flask React Berry](https://docs.appseed.us/products/react/flask-berry-dashboard) - product documentation
-- Download Backend: [Flask API Server 📥](https://github.com/app-generator/api-server-flask/archive/refs/heads/main.zip)
-- Donwnload Frontend: [React Berry Dashboard 📥](https://github.com/app-generator/react-berry-dashboard/archive/refs/heads/main.zip)
-* Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
-* Related Products:
-  - **PRO Version**: [Full-Stack React Berry PRO](https://appseed.us/full-stack/react-berry-dashboard) 
-  - Node JS API Backend - [Node JS React Berry](https://appseed.us/product/react-node-js-berry-dashboard) - `open-source` project
-  - Django API Backend - [Django React Berry](https://appseed.us/product/django-react-berry-dashboard) - `open-source` project
+- [Flask React Berry Dashboard](https://appseed.us/product/flask-react-berry-dashboard) - product page
+- [Flask React Berry Dashboard](https://flask-react-berry-dashboard.appseed-srv1.com/) - LIVE Demo
+- Free Support via Github (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+
+<br />
+
+## Quick-start in Docker
+
+> Clone/Download the source code
+
+```bash
+$ git clone  https://github.com/app-generator/flask-react-berry-dashboard.git
+```
+
+<br />
+
+> Start the Flask API
+
+```bash
+$ cd flask-api
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up     # start the app 
+```
+
+At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
+
+<br />
+
+> Start the React UI (using another terminal)
+
+```bash
+$ cd react-ui
+$ docker-compose pull   # download dependencies 
+$ docker-compose build  # local set up
+$ docker-compose up     # start the app 
+```
+
+Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
+After we register a new user and Sign IN, all the private pages become accessible. 
+
+<br />
+
+![Flask React Berry Dashboard - Open-source full-stack product with Flask API Backend.](https://user-images.githubusercontent.com/51070104/142403839-1488457d-0ea6-4b18-8f25-d19a9acf101e.gif)
 
 <br >
 
-![Flask React Berry - Open-source full-stack seed project crafted by CodedThemes and AppSeed.](https://user-images.githubusercontent.com/51070104/137620600-49dc025b-6637-4228-8bcf-b70149c26f9a.gif)
+## General Information
 
-<br >
+The product is built using a `two-tier` pattern where the React frontend is decoupled logically and physically from the API backend. How to use the product: 
 
-> **Note**: This product can be used with other API Servers for a complete fullstack experience. **ALL API servers use an unified interface**
-
-- [Django API Server](https://github.com/app-generator/api-server-django) - open-source product
-- [Node JS API Server](https://github.com/app-generator/api-server-nodejs) - open-source product / Typescript / SQLite / TypeORM / Joy for validation
-- [Node JS API Server PRO](https://github.com/app-generator/api-server-nodejs-pro) - **commercial product**
-    - SQLite / TypeORM / Joy / Docker
-    - MongoDB / Mongoose / Joy Docker (separate branch, same project)
-
-<br />
-
-![Flask React Berry - Open-source full-stack seed project crafted by CodedThemes and AppSeed.](https://user-images.githubusercontent.com/51070104/124934742-aa392300-e00d-11eb-83bf-28d8b8704ec8.png)
+- `Compile and start` the **Flask API Backend**
+  - by default the server starts on port `5000`
+- `Compile and start` the **React UI**
+  - UI will start on port `3000` and expects a running backend on port `5000`
+- `Configuration` (Optional)
+  - Change the API port
+  - Configure the API port used by the React UI to communicate with the backend 
 
 <br />
 
-## Start Flask API Server
+## Manual build
 
-Simple starter built with Python / Flask-RestX / Sqlite3 and JWT Auth. The authentication flow is based on [json web tokens](https://jwt.io).
-
-<br />
-
-> How to use the code
-
-**Clone the sources**
+### Start the Flask API 
 
 ```bash
-$ git clone https://github.com/app-generator/api-server-flask.git
-$ cd api-server-flask
-```
-
-**Create a virtual environment**
-
-```bash
-$ virtualenv -p python3 venv
-$ source venv/bin/activate
-```
-
-**Install dependencies** using pip
-
-```bash
+$ cd flask-api
+$ 
+$ # Create a virtual environment
+$ virtualenv env
+$ source env/bin/activate
+$
+$ # Install modules
 $ pip install -r requirements.txt
-```
-
-**Set up the environment** 
-
-```bash
+$
+$ # Set up the environment
 $ export FLASK_APP=run.py
 $ export FLASK_ENV=development
+$ 
+$ # Start the API
+$ flask run
 ```
-
-The API server will start using the default port `5000`. 
 
 <br />
 
-## Start React UI 
-
-To use the product Node JS (>= 12.x) is required and GIT to clone/download the project from the public repository.
-
-**Step #1** - Clone the project
+### Compile & start the React UI
 
 ```bash
-$ git clone https://github.com/app-generator/react-berry-dashboard.git
-$ cd react-berry-dashboard
-```
-
-<br >
-
-**Step #2** - Install dependencies via NPM or yarn
-
-```bash
-$ npm i
-// OR
+$ cd react-ui
+$
+$ # Install Modules
 $ yarn
+$
+$ # Start for development (LIVE Reload)
+$ yarn start 
 ```
 
 <br />
 
-**Step #3** - Start in development mode
+### Configuration (Optional)
+
+> Change the port exposed by the Flask API
 
 ```bash
-$ npm run start 
-// OR
-$ yarn start
+$ flask run --port=5001
 ```
+
+Now, the API starts on port `5001`. 
 
 <br />
 
-## Configure the backend server
+> Update the API port used by the React Frontend
 
-The product comes with a usable JWT Authentication flow that provides only the basic requests: login/logout/register. 
-
-**API Server URL** - `src/config/constant.js` 
+**API Server URL** - `src/config.js` 
 
 ```javascript
 const config = {
@@ -132,13 +138,79 @@ const config = {
 
 <br />
 
-**API Server Descriptor** - POSTMAN Collection
+## API
 
-The backend server uses an [Unified API defition](https://docs.appseed.us/boilerplate-code/api-server/api-unified-definition) maintained and actively supported by AppSeed across multiple frameworks: Flask, Node JS, FastAPI.
+For a fast set up, use this POSTMAN file: [api_sample](https://github.com/app-generator/api-server-unified/blob/main/api.postman_collection.json)
 
-- [API POSTMAN Collection](https://github.com/app-generator/api-unified-definition/blob/main/api.postman_collection.json) - can be used to mock (simulate) the backend server or code a new one in your preferred framework. 
+> **Register** - `api/users/register` (**POST** request)
+
+```
+POST api/users/register
+Content-Type: application/json
+
+{
+    "username":"test",
+    "password":"pass", 
+    "email":"test@appseed.us"
+}
+```
+
+<br />
+
+> **Login** - `api/users/login` (**POST** request)
+
+```
+POST /api/users/login
+Content-Type: application/json
+
+{
+    "password":"pass", 
+    "email":"test@appseed.us"
+}
+```
+
+<br />
+
+> **Logout** - `api/users/logout` (**POST** request)
+
+```
+POST api/users/logout
+Content-Type: application/json
+authorization: JWT_TOKEN (returned by Login request)
+
+{
+    "token":"JWT_TOKEN"
+}
+```
+
+<br />
+
+## Product UI
+
+> **Flask React Berry Dashboard** - Login 
+
+![Flask React Berry Dashboard - Login.](https://user-images.githubusercontent.com/51070104/142403942-3a2228e6-c769-4259-8e78-c000056db7c4.png)
+
+<br />
+
+> **Flask React Berry Dashboard** - User Profile
+
+![Flask React Berry Dashboard - User Profile](https://user-images.githubusercontent.com/51070104/142403992-81e86dc5-4d73-4cca-8a1b-300a0f5475a0.png)
+
+<br />
+
+> **Flask React Berry Dashboard** - Billing Page
+
+![Flask React Berry Dashboard - Billing Page.](https://user-images.githubusercontent.com/51070104/142404073-68b96008-fb06-4ff5-98cf-c8e3eca636c9.png)
+
+<br />
+
+## Links & Resources
+
+- Ask for [Support](https://appseed.us/support) on [Discord](https://discord.gg/fZC6hup)
+- See for [React Starters](https://appseed.us/apps/react) - index provided by AppSeed
 
 <br />
 
 ---
-[Flask React Berry](https://appseed.us/product/flask-react-berry-dashboard) - Provided by [CodedThemes](https://codedthemes.com/) and **AppSeed [App Generator](https://appseed.us/app-generator)**.
+**[Flask React Berry Dashboard](https://appseed.us/product/flask-react-berry-dashboard)** - Full-Stack seed project provided by **AppSeed [App Generator](https://appseed.us/)**
