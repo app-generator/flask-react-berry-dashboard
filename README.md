@@ -34,9 +34,7 @@ $ git clone  https://github.com/app-generator/flask-react-berry-dashboard.git
 
 ```bash
 $ cd flask-api
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
+$ docker-compose up --build
 ```
 
 At this point, the API should be up & running at `http://localhost:5000`, and we can test the interface using POSTMAN or `curl`.
@@ -47,9 +45,7 @@ At this point, the API should be up & running at `http://localhost:5000`, and we
 
 ```bash
 $ cd react-ui
-$ docker-compose pull   # download dependencies 
-$ docker-compose build  # local set up
-$ docker-compose up     # start the app 
+$ docker-compose up --build
 ```
 
 Once all the above commands are executed, the `React UI` should be visible in the browser. By default, the app redirects the guest users to authenticate. 
