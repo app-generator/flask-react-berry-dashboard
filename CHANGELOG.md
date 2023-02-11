@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.2] 2023-02-11
+### Changes
+
+- Bump [Flask API](https://github.com/app-generator/api-server-flask) `v1.0.7`
+  - Codebase Improvements
+  - `DB Management` Improvement
+    - `Silent fallback` to **SQLite**
+
 ## [1.0.1] 2023-02-11
 ### Changes
 
