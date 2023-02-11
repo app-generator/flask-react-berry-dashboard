@@ -5,7 +5,7 @@ The backend logic is provided by a simple, `easy-to-extend` **Flask API Server**
 The **React** Design is crafted by [CodedThemes](https://codedthemes.com/?ref=appseed) on top of `MUI` Library.
 
 - 👉 [Flask React Berry](https://appseed.us/product/berry-dashboard/api-server-flask/react/) - product page
-- 👉 [Flask React Berry](https://django-react-berry-dashboard.appseed-srv1.com/) - LIVE Demo
+- 👉 [Flask React Berry](https://flask-react-berry-dashboard.appseed-srv1.com/) - LIVE Demo
 - 🚀 Built with [React App Generator](https://appseed.us/generator/react/), timestamp `2023-02-11 15:14`
 
 <br />
