@@ -162,7 +162,7 @@ Use the API via `POSTMAN` or `Swagger Dashboard` at `localhost:5000`.
 > **Step 1** - Change the directory to `api-server-flask`
 
 ```bash
-$ cd api-server-django
+$ cd api-server-flask
 ```
 
 <br />
