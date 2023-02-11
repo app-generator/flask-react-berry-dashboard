@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.1] 2023-02-11
+### Changes
+
+- Regenerate Codebase, Timestamp `2023-02-11 15:14`
+  - [React App Generator](https://appseed.us/generator/react/) - free tool 
+
 ## [1.0.0] 2021-11-19
 ### Initial Release
 
