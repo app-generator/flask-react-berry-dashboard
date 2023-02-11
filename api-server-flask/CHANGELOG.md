@@ -1,5 +1,13 @@
 # Change Log
 
+## [v1.0.4] 2023-02-11
+### Changes
+
+- Codebase Improvements
+  - Sync with [Flask API](https://github.com/app-generator/api-server-flask) `v1.0.7`
+- `DB Management` Improvement
+  - `Silent fallback` to **SQLite**
+
 ## [1.0.3] 2022-11-05
 ### Improvements
 
