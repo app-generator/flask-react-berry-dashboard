@@ -139,24 +139,6 @@ Use the API via `POSTMAN` or `Swagger Dashboard` at `localhost:5000`.
 
 <br /> 
 
-## 👉 Codebase Structure
-
-```bash
-< ROOT  >
-    |
-   api-server-flask/
-    ├── api
-    │   ├── config.py
-    │   ├── __init__.py
-    │   ├── models.py
-    │   └── routes.py
-    ├── requirements.txt
-    ├── run.py
-    └── tests.py
-```
-
-<br />
-
 ### 👉 Start API using `Docker` 
 
 > **Step 1** - Change the directory to `api-server-flask`
@@ -171,6 +153,24 @@ $ cd api-server-flask
 
 ```bash
 $ docker-compose up --build
+```
+
+<br />
+
+## 👉 Codebase Structure
+
+```bash
+< ROOT  >
+    |
+   api-server-flask/
+    ├── api
+    │   ├── config.py
+    │   ├── __init__.py
+    │   ├── models.py
+    │   └── routes.py
+    ├── requirements.txt
+    ├── run.py
+    └── tests.py
 ```
 
 <br />
